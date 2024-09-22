@@ -1,0 +1,26 @@
+/* Do everything in this file */
+h2{
+    clear:both;
+    border-bottom: solid red;
+}
+figure img{
+    float: right;
+    margin-left: 2em;
+    width: 40%;
+}
+section#tetlist div{
+    float: left;
+    border: solid red;
+    width: 30%;
+}
+footer{
+    clear:both;
+    position: relative;
+    top: -500px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    position: fixed;
+    text-align: right;
+    z-index: -2;
+}

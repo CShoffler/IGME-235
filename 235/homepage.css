@@ -1,0 +1,82 @@
+*{
+    /*border: 1px solid gray;*/
+    margin: 0;
+}
+
+header{
+    margin-top: 0;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(246, 201, 88);
+}
+
+body{
+    font-family: sans-serif, Arial;
+    margin-top: 0;
+    background-color:palegoldenrod;
+}
+
+main{
+    /*
+    NOTE- this margin is spaced for the inclusion of a header bar, not currently implemented
+    margin-top: 100px;*/
+    padding: 2%;
+}
+
+footer{
+    padding: 2%;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(205, 5, 45);
+    border-bottom: 5px solid rgb(205, 5, 45);
+    font-weight: 1000;
+}
+
+h2 {
+    color: rgb(255, 63, 63);
+    font-weight: 700;
+}
+
+h2.sectiontitles {
+    color: rgb(255, 63, 63);
+    border-bottom: 3px solid rgb(205, 5, 45);
+    font-weight: 800;
+}
+
+h3 {
+    color: rgb(255, 63, 63);
+    font-weight: 600;
+}
+
+div.sectionlists ul{
+    margin: 20px;
+}
+
+div.sectionlists ul li {
+    margin: 0.5em;
+}
+
+div.sectionlists#projects ul li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+div#aboutme img#profile{
+    padding: 2em;
+    float: right;
+    margin-top: 3em;
+    margin-bottom: auto;
+    width: 297px; 
+    height: 323px;
+}
+
+img#logo{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 184px; 
+    height: 89px;
+}
